@@ -9,4 +9,4 @@ RealTimeBusTracker
 **Roadmap:** For now the next steps is to replace the mapping with Google maps or other mapping services and also add filters to select individual busses to track.
 
 
-<img src="realtimeBusTracker.gif" alt="Real Time Bus Tracker Exercise">
+<img src="images/realtimeBusTracker.gif" alt="Real Time Bus Tracker Exercise">
