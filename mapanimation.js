@@ -1,7 +1,8 @@
 var markers = [];
-
 // Rendering a new map using MapBox library
-mapboxgl.accessToken = '<API Key Goes Here>';
+const apiKey = '<API KEY>'; //
+mapboxgl.accessToken = apiKey;
+if (apiKey.length < 10) { alert('No API Key found, the Map for the `Realtime Bus Tracker` will not be rendered. Please check the Usage in the Readme of this repository.')}
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
