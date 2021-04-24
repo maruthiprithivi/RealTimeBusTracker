@@ -2,7 +2,7 @@ var markers = [];
 // Rendering a new map using MapBox library
 const apiKey = '<API KEY>'; //
 mapboxgl.accessToken = apiKey;
-if (apiKey.length < 10) { alert('No API Key found, the Map for the `Realtime Bus Tracker` will not be rendered. Please check the Usage in the Readme of this repository.')}
+if (apiKey.length < 10) { alert('No API Key found, the Map for the `Realtime Bus Tracker` will not be rendered, but the Bus markers will still be rendered and updated on the browser window. Please check the Usage in the Readme of this repository.')}
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
